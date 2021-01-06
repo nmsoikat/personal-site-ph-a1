@@ -1,0 +1,258 @@
+/* -------- Base CSS -------- */
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+}
+ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+p, h1, h2, h3{
+  margin-bottom: 0;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.container{
+  width: 1140px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+
+
+
+/* -------- Header Area ---------- */
+.header-area {
+  line-height: 3.5;
+}
+.menu{
+  overflow: hidden;
+  float: right;
+}
+
+.menu-item{
+  float: left;
+}
+
+.menu-item a{
+  padding: 10px 20px;
+  color: #3C3C3C;
+}
+
+
+
+
+/* --------- About Area --------- */
+.about-area{
+  overflow: hidden;
+}
+.left-info {
+  float: left;
+  width: 40%;
+}
+
+.right-image {
+  float: right;
+  width: 60%;
+  text-align: center;
+}
+
+.right-info h1,
+.left-info h1{
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 700;
+  color: #363958;
+  margin-bottom: 10px;
+}
+
+.left-info .name-highlight{
+  display: block;
+  color: #FF8367;
+}
+
+.right-info .description,
+.left-info .designation{
+  color: #3E3E3E;
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+.right-image img {
+  width: 55%;
+}
+.button {
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 15px 30px;
+  color: #fff;
+  background: linear-gradient(45deg, #ff3f3f, #f76860);
+  cursor: pointer;
+  font-size: 16px;
+}
+.about-area{
+  overflow: hidden;
+}
+.left-image{
+ float: left; 
+ width: 60%;
+}
+.right-info{
+  float: right;
+  width: 40%;
+}
+.right-info h1{
+  font-size: 50px;
+}
+.left-image img {
+  width: 100%;
+  text-align: left;
+  margin-left: -20%;
+}
+.about-section-1,
+.about-section-2{
+  margin-top: 60px;
+}
+
+
+
+/* ------------ Project Area -------------- */
+.latest-projects{
+  background-color: #F8F9FC;
+  padding: 60px 0;
+}
+.section-title h2{
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 700;
+  color: #363958;
+  text-align: center;
+}
+.section-title{
+  margin: 50px 0;
+}
+
+.highlight-text{
+  color: #F46060;
+}
+
+.projects-wrap{
+  overflow: hidden;
+  margin: 0 -1.6%;
+}
+.project{
+  float: left;
+  padding: 15px;
+  border-radius: 19.5px;
+  background-color: #fff;
+  width: 30%;
+  margin: 0 1.6%;
+}
+
+.project-title{
+  font-weight: 700;
+  font-size: 24px;
+  color: #363958;
+  margin: 15px 0;
+}
+
+.project-desc{
+  color: #6C6C6C;
+  line-height: 1.8;
+}
+
+
+/* ----------- INQuery Banner ----------- */
+.inquery-area{
+  padding: 60px 0;
+}
+.inquery-wrap{
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.inquery-wrap .left-text{
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 45px;
+}
+
+.inquery-wrap .right-btn{
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+
+/* -------------- Contact Area ------------ */
+.contact-area{
+  background-color: #F8F9FC;
+  padding: 60px 0;
+}
+
+.contact-form{
+  width: 50%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+.input-group {
+  margin-bottom: 15px;
+  display: block;
+}
+
+.input-group p {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.input-group textarea,
+.input-group input {
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  line-height: 2;
+  padding-left: 8px;
+  border-radius: 6px;
+}
+
+.submit{
+  padding: 10px 20px;
+}
+
+
+/* --------- Footer Area------- */
+.footer-area{
+  padding: 60px 0;
+}
+.footer-area {
+  text-align: center;
+  line-height: 1.8;
+}
+.footer-area .title {
+  color: #696871;
+}
+.footer-area .email {
+  color: #363958;
+}

@@ -4,11 +4,130 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Personal Site</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/style.css">
+
 </head>
 
 <body>
+  <header class="header-area">
+    <div class="container">
+      <ul class="menu">
+        <li class="menu-item"><a href="#about">About</a></li>
+        <li class="menu-item"><a href="#work">Work</a></li>
+        <li class="menu-item"><a href="#work">Portfolio</a></li>
+        <li class="menu-item"><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
 
+
+  <main>
+    <div class="container">
+      <section class="about-area about-section-1" id="about">
+        <div class="left-info">
+          <h1>Hello, I'm <span class="name-highlight">NM Soikat</span></h1>
+          <p class="designation">A Front-End Developer that placerat in massa consectetur</p>
+          <button class="button">Hire Me</button>
+        </div>
+        <div class="right-image">
+          <img src="./assets/img/profile-1.jpg" alt="">
+        </div>
+      </section>
+
+      <section class="about-area about-section-2">
+        <div class="left-image">
+          <img src="./assets/img/profile-2.jpg" alt="">
+        </div>
+        <div class="right-info">
+          <h1>About</h1>
+          <p class="description"> I am a Front-End Developer. I have 1 year experience about Front-End Development. I
+            know well [ HTML5, CSS, Bootstrap, JavaScript]. and basic of [Photoshop, jQuery] I love my designation and I
+            believe in my skill.</p>
+          <button class="button">Download CV</button>
+        </div>
+      </section>
+    </div>
+
+    <section class="latest-projects" id="work">
+      <div class="container">
+        <div class="section-title">
+          <h2>
+            <span class="highlight-text">LATEST</span> WORKING PROJECT
+          </h2>
+        </div>
+
+        <div class="projects-wrap">
+          <div class="project">
+            <img class="project-img" src="./assets/img/image-4.png" alt="">
+            <h2 class="project-title">Power-x-gym (gym website)</h2>
+            <p class="project-desc">Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry.
+            </p>
+          </div>
+          <div class="project">
+            <img class="project-img" src="./assets/img/image-5.png" alt="">
+            <h2 class="project-title">Creative Agency</h2>
+            <p class="project-desc">Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry.
+            </p>
+          </div>
+          <div class="project">
+            <img class="project-img" src="./assets/img/image-8.png" alt="">
+            <h2 class="project-title">Hard Rock Music</h2>
+            <p class="project-desc">Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="inquery-area">
+      <div class="container">
+        <div class="inquery-wrap">
+          <img src="./assets/img/inquery-bg.png" alt="">
+          <h2 class="left-text">Work Inquiry</h2>
+          <button class="button right-btn">Let’s Chat</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-area" id="contact">
+      <div class="container">
+        <div class="contact-form">
+          <form>
+            <label class="input-group">
+              <p class="text-label">Name</p>
+              <input type="text" placeholder="Type your name" required>
+            </label>
+            <label class="input-group">
+              <p class="text-label">Email</p>
+              <input type="email" placeholder="Type your email" required>
+            </label>
+            <label class="input-group">
+              <p class="text-label">Message</p>
+              <textarea cols="30" rows="5"></textarea>
+            </label>
+            <button class="button submit" type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-area">
+    <div class="container">
+      <h3 class="title">Stay connected</h3>
+      <h2 class="email">nurcse5@gmail.com</h2>
+      <p class="copy-right">&copy; Copyright 2021 All Right Reserved. Design By NM Soikat. Programming Hero Batch-3</p>
+    </div>
+  </footer>
 </body>
 
 </html>
